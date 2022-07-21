@@ -246,6 +246,54 @@ margin-left: 45px;
   margin-left: 25px;
 }
 
+.corporate{
+  margin-top:112px;
+  margin-left: 139px;
+  margin-right: 139px;
+
+
+
+}
+
+.corporate h2{
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+ 
+}
+
+.corporate h4{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+  
+}
+
+.corporate .history p{
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.corporate .brand{
+  margin-top: 40px;
+}
+
+.video-thumbnail{
+  margin-left: 139px;
+  margin-right: 139px;
+  margin-top: 110px;
+}
+
+.video-thumbnail img{
+  width: 1088px;
+height: 400px;
+}
+
+
 
 
 
