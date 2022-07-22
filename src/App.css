@@ -293,6 +293,159 @@ margin-left: 45px;
 height: 400px;
 }
 
+.footer{
+  width:100%;
+  background-color: #242424;
+  height: 290px;
+  margin-top: 161px;
+  border: 1px solid #707070;
+  color: #FFFFFF;
+
+  }
+
+  .wrapper{
+    display:flex;
+  
+  background-color: #242424;
+  }
+
+.footer .wrapper .logo{
+  margin-left: 191px;
+  margin-top: 98px;
+
+}
+
+.footer .wrapper .logo img{
+  height:50px;
+  width:74px;
+  margin-left: 40px;
+
+}
+
+.footer .wrapper .logo p{
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+   margin-top:10px;
+}
+
+.footer .wrapper .links{
+  margin-left: 50px;
+  border-left:1px solid #707070;
+  margin-top: 42px;
+  margin-bottom:92px;
+
+}
+
+.footer .wrapper .links h6{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 16px;
+  margin-bottom: 25px;
+}
+
+.footer .wrapper .links p{
+  margin-left: 16px;
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+line-height: 15px;
+}
+
+.footer .wrapper .company{
+  margin-left: 126px;
+  border-left:1px solid #707070;
+  margin-top: 42px;
+  margin-bottom:92px;
+
+}
+
+.footer .wrapper .company h6{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 16px;
+  margin-bottom: 25px;
+}
+
+.footer .wrapper .company p{
+  margin-left: 16px;
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+line-height: 15px;
+}
+
+.footer .wrapper .newsletter{
+  margin-left: 126px;
+  margin-top: 42px;
+  
+}
+
+.footer .wrapper .newsletter h6{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.footer .wrapper .newsletter p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  margin-top: 25px;
+
+}
+
+.footer .wrapper .newsletter input{
+  width: 292px;
+}
+.footer .wrapper .newsletter button{
+  background-color: #6B6B6B;
+  color: white;
+  font-size: 11px;
+  font-family: 'Poppins', sans-serif;
+ width:76px;
+ padding-top:8px ;
+ padding-bottom: 3px;
+ border: 1px solid grey;
+
+}
+
+::placeholder{
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  padding-left: 15px;
+}
+
+.footer .wrapper .icons{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.footer .wrapper .icons img{
+  border:1px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  margin-left:11px;
+  
+
+}
+.copyright{
+  background-color: #242424;
+  
+
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+font-size: 11px;
+border-top: 1px solid white;
+height:56px;
+  
+}
+
+.copyright p{
+  margin-top:19px;
+  margin-bottom:19px;
+}
+
+
 
 
 

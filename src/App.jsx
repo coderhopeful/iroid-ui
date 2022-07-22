@@ -5,6 +5,13 @@ import satisfaction from "./images/satisfaction.png"
 import tickmark from "./images/tickmark.png"
 import coffee from "./images/coffee.png"
 import thumbnail from "./images/thumbnail.png"
+import delivery from "./images/delivery.png"
+import fb from "./images/icons/fb.png"
+import tw from "./images/icons/tw.png"
+import yt from "./images/icons/yt.png"
+import li from "./images/icons/li.png"
+
+
 
 function App() {
   return (
@@ -120,9 +127,51 @@ function App() {
       <div className="video-thumbnail">
         <img src={thumbnail} alt="video-thumbnail" />
       </div>
-      <footer>
+      <footer className='footer'>
+      <div className='wrapper'>
+          <div className="logo">
+            <img src={delivery} alt="delivery-logo" />
+            <p>Fast delivery in 3-5 Days</p>
+          </div>
+          <div className="links">
+            <h6>QUICK LINKS</h6>
+            <p>Gift Card</p>
+            <p>Lookbook 2021</p>
+            <p>Privacy Policy</p>
+            <p>Shipping & Refund</p>
+          </div>
+          <div className="company">
+            <h6>COMPANY</h6>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Pricing Plan</p>
+            <p>Knowledge Base</p>
+          </div>
+          <div className="newsletter">
+            <h6>NEWSLETTER</h6>
+            <p>Sign up & get all our latest updates and special offers</p>
+            <input type="email" placeholder='   Enter Your Email address' />
+            <button>SUBSCRIBE</button>
+            <div className="icons">
+              <img src={yt} alt="youtube-icon" />
+              <img src={li} alt="linkedin-icon" />
+              <img src={tw} alt="tritter-icon" />
+              <img src={fb} alt="facebook-icon" />
+  
+            </div>
+            
+          </div>
+      </div>
         
+        <div className="copyright">
+       
+          <p >© 2021 Alba. All Rights Reserved.</p>
+        </div>
+       
+
       </footer>
+      
+     
     </div>
   );
 }
